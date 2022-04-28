@@ -48,8 +48,6 @@ public class AppConfig {
         dataSource.setUrl("jdbc:mysql://localhost:3306/rpg?serverTimezone=UTC&characterEncoding=UTF-8");
         dataSource.setUsername("root");
         dataSource.setPassword("root");
-//        dataSource.setUsername("user");
-//        dataSource.setPassword("user");
         return dataSource;
     }
 
